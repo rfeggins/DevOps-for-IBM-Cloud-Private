@@ -16,6 +16,12 @@ The packages are stored in repositories and IBM Cloud Private contains one repos
 
 As Application developers develop applications these applications can also be published to the Catalog so that other users can easily install and access these applications.
 
+> To deploy a Helm chart, it requires elevated privileges, Cluster Administrator, 
+> from the IBM® Cloud Private Catalog to assigned namespaces that contain defined pod security policies.
+
+> See [Accessing your IBM® Cloud Private cluster by using the kubectl CLI](https://www.ibm.com/support/knowledgecenter/SSBS6K_2.1.0.3/manage_cluster/cfc_cli.html)
+> You also may need to setup a [Service Account](https://www.ibm.com/developerworks/community/blogs/fe25b4ef-ea6a-4d86-a629-6f87ccf4649e/entry/Configuring_the_Kubernetes_CLI_by_using_service_account_tokens1?lang=en)
+
 Each Helm chart can be filtered based on the following classifications:
 - Repository name
 
