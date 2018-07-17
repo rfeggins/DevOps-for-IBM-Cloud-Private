@@ -1,25 +1,22 @@
 
 
-# Getting Started with Developer Sandbox
-## Heading Level 2
-### Heading Level 3
-
-- list
-- list
-  - list indented
-
-
-  1. Number 1
-  2. Number 2
-
-  [link to Google](https://www.google.com)
-  ![link to images](images/Selenium Framework.jpg)
-
-  -
-https://code.tutsplus.com/tutorials/a-linux-developers-setup--cms-22138
-
-
+## Getting Started with Developer Sandbox ##
 The installation walkthrough below will refer to Ubuntu, but you are free to use any other distribution. Depending on which you go for, the installation and package management instructions change, so keep that in mind when using something like Fedora, CentOS, or Arch.
+
+#### References ####
+  - https://code.tutsplus.com/tutorials/a-linux-developers-setup--cms-22138
+
+  A common practice on agile teams is to ensure that developers have their own **"sandboxes"** to work in.
+  > A sandbox is basically a technical environment whose scope is well defined and respected.
+  >   
+  > The primary advantage of sandboxes are that they help to reduce the risk of technical errors adversely affecting a larger group of people than is absolutely necessary at the time.
+
+  This is the working environment of individual developers, programming pairs, or individual feature teams.
+
+  The purpose of this environment is for the developer/pair/team to work in seclusion from the rest of their project team, enabling them to make and validate changes without having to worry about adversely affecting the rest of their project team.
+
+  These environments are likely to have their own databases to enable regression testing and more importantly agile testing strategies.
+
 
 ## Step by Step Tutorial
 
